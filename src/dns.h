@@ -90,10 +90,10 @@
 typedef uintptr_t dns_packet_t;
 typedef uintptr_t dns_decoded_t;
 
-#define DNS_BUFFER_UDP		(  512uL / sizeof(dns_packet_t))
-#define DNS_DECODEBUF_4K	( 4096uL / sizeof(dns_decoded_t))
-#define DNS_DECODEBUF_8K	( 8192uL / sizeof(dns_decoded_t))
-#define DNS_DECODEBUF_16k	(16384uL / sizeof(dns_decoded_t))
+#define DNS_BUFFER_UDP		(  512ul / sizeof(dns_packet_t))
+#define DNS_DECODEBUF_4K	( 4096ul / sizeof(dns_decoded_t))
+#define DNS_DECODEBUF_8K	( 8192ul / sizeof(dns_decoded_t))
+#define DNS_DECODEBUF_16k	(16384ul / sizeof(dns_decoded_t))
 
 /************************************************************************
 * Various upper limits in the DNS protocol
